@@ -1,0 +1,38 @@
+{
+  "guid": "h3vr.tnhtweaker.hotlineheather",
+  "version": "1.0.0",
+  "require": "0.3.0",
+  "dependencies": {
+    "h3vr.tnhtweaker.deli": "1.6.0",
+	"h3vr.otherloader.deli": "0.1.5"
+  },
+  "name": "HotlineHeather",
+  "authors": [ 
+    "faeriedae" 
+  ],
+  "assets": {
+    "patcher": {},
+    "setup": {
+	  "HotlineHeather/Hot_Melee.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Pistol.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Uzi.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_MP5.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Double.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_AK.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_M16.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Buff.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Montagne.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Pig.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Bruiser.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Trip_Killer.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Trip_Flamer.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Dummy.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Dummy2.json": "h3vr.tnhtweaker.deli:sosig",
+      "HotlineHeather/": "h3vr.tnhtweaker.deli:character"
+    },
+	"runtime":	{
+		"hotshirt": "h3vr.otherloader.deli:item"
+}
+  }
+
+}
