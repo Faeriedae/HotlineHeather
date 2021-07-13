@@ -1,6 +1,6 @@
 {
   "guid": "h3vr.tnhtweaker.hotlineheather",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "require": "0.3.0",
   "dependencies": {
     "h3vr.tnhtweaker.deli": "1.6.0",
@@ -26,9 +26,14 @@
 	  "HotlineHeather/Hot_Bruiser.json": "h3vr.tnhtweaker.deli:sosig",
 	  "HotlineHeather/Hot_Trip_Killer.json": "h3vr.tnhtweaker.deli:sosig",
 	  "HotlineHeather/Hot_Trip_Flamer.json": "h3vr.tnhtweaker.deli:sosig",
-	  "HotlineHeather/Hot_Dummy.json": "h3vr.tnhtweaker.deli:sosig",
-	  "HotlineHeather/Hot_Dummy2.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Trip_Gunner.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Trip_Buff.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Trip.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Hot_Siren.json": "h3vr.tnhtweaker.deli:sosig",
+	  "HotlineHeather/Vault_SV98.json": "h3vr.tnhtweaker.deli:vault_file",
+	  "HotlineHeather/Vault_M1911Tactical.json": "h3vr.tnhtweaker.deli:vault_file",
       "HotlineHeather/": "h3vr.tnhtweaker.deli:character"
+
     },
 	"runtime":	{
 		"hotshirt": "h3vr.otherloader.deli:item"
