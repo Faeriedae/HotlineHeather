@@ -1,9 +1,9 @@
 {
-  "DisplayName": "HotMelee",
-  "SosigEnemyCategory": "Shotdogs",
-  "SosigEnemyID": "Hot_Melee",
+  "DisplayName": "Trip Gunner",
+  "SosigEnemyCategory": "Franks",
+  "SosigEnemyID": "Hot_Trip_Gunner",
   "SosigPrefabs": [
-    "SosigBody_Default"
+    "ZosigBody_Rot"
   ],
   "Configs": [
     {
@@ -31,8 +31,8 @@
       "TotalMustard": 100.0,
       "BleedDamageMult": 0.5,
       "BleedRateMultiplier": 1.0,
-      "BleedVFXIntensity": 2.0,
-      "DamMult_Projectile": 1.1,
+      "BleedVFXIntensity": 1.0,
+      "DamMult_Projectile": 1.0,
       "DamMult_Explosive": 1.0,
       "DamMult_Melee": 1.0,
       "DamMult_Piercing": 1.0,
@@ -197,51 +197,54 @@
   ],
   "OutfitConfigs": [
     {
-      "Headwear": [],
+      "Headwear": [
+        "Sosigaccesory_ww2_helmet_green"
+      ],
       "Chance_Headwear": 1.0,
       "ForceWearAllHead": false,
       "Eyewear": [
-		"Sosig_MF2_Red_SP_ciggie",
-	  ],
+		"Sosigaccesory_Peepers"
+		],
       "Chance_Eyewear": 1.0,
       "ForceWearAllEye": false,
       "Facewear": [],
       "Chance_Facewear": 0.0,
       "ForceWearAllFace": false,
       "Torsowear": [
-        "SosigAccessory_HotShirt",
+        "Sosigaccesory_ww2_shirt_green"
       ],
       "Chance_Torsowear": 1.0,
       "ForceWearAllTorso": false,
       "Pantswear": [
-        "SosigAccessory_HotPants",
-
+        "Sosigaccesory_ww2_pants_green"
       ],
       "Chance_Pantswear": 1.0,
       "ForceWearAllPants": false,
       "Pantswear_Lower": [],
       "Chance_Pantswear_Lower": 0.0,
       "ForceWearAllPantsLower": false,
-      "Backpacks": [],
+      "Backpacks": [
+        "Sosigaccesoryww2flamethrowerbackpack"
+      ],
       "Chance_Backpacks": 0.0,
       "ForceWearAllBackpacks": false
     }
   ],
   "WeaponOptions": [
-    "SosigMelee_Crowbar",
-	"SosigMelee_Tomahawk",
-	"SosigMelee_Tanto"
+    "Sosiggun_Tommy"
   ],
-  "WeaponOptionsSecondary": [],
+  "WeaponOptionsSecondary": [
+	"SosigMelee_Tomahawk"
+  ],
   "WeaponOptionsTertiary": [],
-  "SecondaryChance": 0.0,
+  "SecondaryChance": 1.0,
   "TertiaryChance": 0.0,
-  "DroppedLootChance": 0.0,
+  "DroppedLootChance": 1.0,
   "DroppedObjectPool": {
     "Category": "Firearm",
     "Rarity": 0.0,
     "RequiredQuest": null,
-    "ItemsToSpawn": 0,
+    "ItemsToSpawn": 1,
     "MinAmmoCapacity": 0,
     "MaxAmmoCapacity": 0,
     "NumMagsSpawned": 0,
@@ -252,7 +255,9 @@
     "IsCompatibleMagazine": false,
     "AutoPopulateGroup": false,
     "ForceSpawnAllSubPools": false,
-    "IDOverride": [],
+    "IDOverride": [
+		"MagazineVZ64"
+	],
     "Eras": [],
     "Sets": [],
     "Sizes": [],

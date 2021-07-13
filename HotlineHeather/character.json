@@ -2,7 +2,7 @@
   "DisplayName": "Hotline Heather",
   "Description": "Hotline Miami Loadout.\nSpawns w. a melee weapon and health.\n\nLimited ammo recommended.\n\nAnd as always... be discreet.",
   "CharacterGroup": 2,
-  "TableID": "DD_C01",
+  "TableID": "MM_HLH",
   "StartingTokens": 3,
   "ForceAllAgentWeapons": false,
   "ForceDisableOutfitFunctionality": false,
@@ -180,9 +180,11 @@
       "SpawnMagAndClip": false,
       "BespokeAttachmentChance": 0.5,
       "IsCompatibleMagazine": false,
-      "AutoPopulateGroup": true,
+      "AutoPopulateGroup": false,
       "ForceSpawnAllSubPools": false,
-      "IDOverride": [],
+      "IDOverride": [
+	  "PowerUpDrug_Health"
+	  ],
       "Eras": [],
       "Sets": [],
       "Sizes": [],
@@ -325,7 +327,7 @@
       "TokenCost": 2,
       "TokenCostLimited": 2,
       "MinLevelAppears": 0,
-      "MaxLevelAppears": 99,
+      "MaxLevelAppears": 4,
       "SpawnsInSmallCase": false,
       "SpawnsInLargeCase": false,
       "PrimaryGroup": {
@@ -344,7 +346,7 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-			"M9A1"
+			"M9"
 		],
         "Eras": [],
         "Sets": [],
@@ -489,7 +491,10 @@
 			"Hammerless520",
 			"MB590A1"
 		],
-		"Eras": [],
+		"Eras": [
+			"WW2",
+			"PostWar"
+		],
         "Sets": [],
         "Sizes": [],
         "Actions": [],
@@ -562,7 +567,7 @@
       "TokenCost": 2,
       "TokenCostLimited": 1,
       "MinLevelAppears": 0,
-      "MaxLevelAppears": 99,
+      "MaxLevelAppears": 7,
       "SpawnsInSmallCase": false,
       "SpawnsInLargeCase": false,
       "PrimaryGroup": {
@@ -630,13 +635,166 @@
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
 			"MP5KA3",
-			"MicroUzi",
+			"Uzi_Mini",
 			"VZ64Skorpion",
 			"MP5SD6",
 			"Uzi_Compact"
 			
 		],
+        "Eras": [
+			"WW2",
+			"PostWar"
+		],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+	{
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_machinegun",
+      "TokenCost": 6,
+      "TokenCostLimited": 5,
+      "MinLevelAppears": 5,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "MeleeWeapon",
+        "Rarity": 7.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 10,
+        "MaxAmmoCapacity": 70,
+        "NumMagsSpawned": 2,
+        "NumClipsSpawned": 1,
+        "NumRoundsSpawned": 6,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+			"M60E3",
+			"JunkyardFlameThrower",
+			"Vault_SV98"
+			
+		],
         "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+
+		{
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_hench.png",
+      "TokenCost": 4,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 5,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "MeleeWeapon",
+        "Rarity": 7.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 11,
+        "MaxAmmoCapacity": 11,
+        "NumMagsSpawned": 1,
+        "NumClipsSpawned": 1,
+        "NumRoundsSpawned": 6,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+			"Vault_M1911Tactical"
+			
+		],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+		{
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_bear.png",
+      "TokenCost": 5,
+      "TokenCostLimited": 4,
+      "MinLevelAppears": 5,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "MeleeWeapon",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 2,
+        "MinAmmoCapacity": 30,
+        "MaxAmmoCapacity": 30,
+        "NumMagsSpawned": 2,
+        "NumClipsSpawned": 1,
+        "NumRoundsSpawned": 6,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+			"MP5KA3"
+			
+		],
+        "Eras": [
+			"WW2",
+			"PostWar"
+		],
         "Sets": [],
         "Sizes": [],
         "Actions": [],
@@ -794,9 +952,7 @@
           "TurnOfTheCentury",
           "WW1",
           "WW2",
-          "PostWar",
-          "Modern",
-          "Futuristic"
+          "PostWar"
         ],
         "Sets": [
           "Real",
@@ -854,9 +1010,7 @@
           "TurnOfTheCentury",
           "WW1",
           "WW2",
-          "PostWar",
-          "Modern",
-          "Futuristic"
+          "PostWar"
         ],
         "Sets": [
           "Real",
@@ -906,9 +1060,12 @@
         "SpawnMagAndClip": false,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
-        "AutoPopulateGroup": true,
+        "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
-        "IDOverride": [],
+        "IDOverride": [
+		"PowerUpDrug_Health",
+		"PowerUpDrug_Regen"
+		],
         "Eras": [],
         "Sets": [],
         "Sizes": [],
@@ -954,9 +1111,18 @@
         "SpawnMagAndClip": false,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
-        "AutoPopulateGroup": true,
+        "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
-        "IDOverride": [],
+        "IDOverride": [
+		"PowerUpDrug_Health",
+		"PowerUpDrug_Regen",
+		"PowerUpDrug_Ghost",
+		"PowerUpDrug_Infinite",
+		"PowerUpDrug_Muscle",
+		"PowerUpDrug_Shield",
+		"PowerUpDrug_Cyclops"
+
+		],
         "Eras": [],
         "Sets": [],
         "Sizes": [],
@@ -1008,9 +1174,9 @@
         "SpawnMagAndClip": false,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
-        "AutoPopulateGroup": true,
+        "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
-        "IDOverride": [],
+        "IDOverride": ["PowerUpDrug_Muscle"],
         "Eras": [],
         "Sets": [],
         "Sizes": [],
@@ -1057,7 +1223,10 @@
         "IsCompatibleMagazine": false,
         "AutoPopulateGroup": true,
         "ForceSpawnAllSubPools": false,
-        "IDOverride": [],
+        "IDOverride": [
+			"InfiniteAmmo",
+			"QuadDamage"
+			],
         "Eras": [],
         "Sets": [],
         "Sizes": [],
@@ -1569,6 +1738,27 @@
           "GrenadeType": "Sosiggrenade_Flash",
           "SwarmPlayer": false
         },
+		{
+          "Encryptions": ["Static"
+		  ],
+          "MinTargets": 0,
+          "MaxTargets": 0,
+          "MinTargetsLimited": 0,
+          "MaxTargetsLimited": 0,
+          "EnemyType": ["Hot_Siren"],
+          "LeaderType": "Hot_Siren",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 0.1,
+          "WarmupTime": 0.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
 		        {
           "Encryptions": [
             "Hardened"
@@ -1726,6 +1916,27 @@
           "SpawnCadence": 15.0,
           "ScanTime": 60.0,
           "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+		{
+          "Encryptions": ["Static"
+		  ],
+          "MinTargets": 0,
+          "MaxTargets": 0,
+          "MinTargetsLimited": 0,
+          "MaxTargetsLimited": 0,
+          "EnemyType": ["Hot_Trip"],
+          "LeaderType": "Hot_Trip",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 0.1,
+          "WarmupTime": 0.0,
           "IFFUsed": 1,
           "GrenadeChance": 0.0,
           "GrenadeType": "Sosiggrenade_Flash",
@@ -1805,6 +2016,389 @@
     }
   ],
   "LevelsEndless": [
+	{
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Killer",
+        "NumTurrets": 0,
+        "NumGuards": 5,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 30.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Gunner",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 15.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Uzi",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Killer",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+	{
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Flamer",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Gunner",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 30.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Buff",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 15.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Uzi",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Hot_Trip_Killer",
+			"Hot_Trip_Gunner"
+          ],
+          "LeaderType": "Hot_Trip_Killer",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+	{
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Killer",
+        "NumTurrets": 0,
+        "NumGuards": 5,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Buff",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 30.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer",
+			"Hot_Trip_Flamer"
+          ],
+          "LeaderType": "Hot_Trip_Buff",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 15.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Flamer",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Gunner",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
     {
       "NumOverrideTokensForHold": 3,
       "MinSupplyPoints": 1,
@@ -1826,10 +2420,10 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "Hot_Melee",
+        "EnemyType": "Hot_Pig",
         "NumTurrets": 0,
         "NumGuards": 2,
-        "IFFUsed": 1
+        "IFFUsed": 2
       },
       "HoldPhases": [
         {
@@ -1841,9 +2435,10 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "Hot_Melee"
+            "Hot_Uzi",
+			"Hot_Melee"
           ],
-          "LeaderType": "Hot_Melee",
+          "LeaderType": "Hot_MP5",
           "MinEnemies": 2,
           "MaxEnemies": 2,
           "MaxEnemiesAlive": 4,
@@ -1865,9 +2460,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "Hot_Melee"
+            "Hot_Pig"
           ],
-          "LeaderType": "Hot_Pistol",
+          "LeaderType": "Hot_Montagne",
           "MinEnemies": 2,
           "MaxEnemies": 2,
           "MaxEnemiesAlive": 2,
@@ -1883,7 +2478,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "Hot_Melee",
+        "EnemyType": "Hot_AK",
         "NumTurrets": 0,
         "NumGuards": 2,
         "IFFUsed": 1
@@ -1891,15 +2486,15 @@
       "Patrols": [
         {
           "EnemyType": [
-            "Hot_Melee"
+            "Hot_Pig"
           ],
-          "LeaderType": "Hot_Melee",
-          "PatrolSize": 0,
+          "LeaderType": "Hot_Montagne",
+          "PatrolSize": 1,
           "MaxPatrols": 1,
           "MaxPatrolsLimited": 0,
           "PatrolCadence": 0.0,
           "PatrolCadenceLimited": 0.0,
-          "IFFUsed": 1,
+          "IFFUsed": 2,
           "SwarmPlayer": false,
           "AssualtSpeed": "Walking",
           "IsBoss": false,
@@ -1908,116 +2503,8 @@
         }
       ]
     },
-    {
-      "NumOverrideTokensForHold": 4,
-      "MinSupplyPoints": 2,
-      "MaxSupplyPoints": 2,
-      "MinConstructors": 1,
-      "MaxConstructors": 1,
-      "MinPanels": 1,
-      "MaxPanels": 1,
-      "MinBoxesSpawned": 2,
-      "MaxBoxesSpawned": 4,
-      "MinTokensPerSupply": 1,
-      "MaxTokensPerSupply": 1,
-      "BoxTokenChance": 0.0,
-      "BoxHealthChance": 0.5,
-      "PossiblePanelTypes": [
-        "AmmoReloader",
-        "MagDuplicator",
-        "Recycler"
-      ],
-      "TakeChallenge": {
-        "TurretType": "SMG",
-        "EnemyType": "Hot_Pistol",
-        "NumTurrets": 0,
-        "NumGuards": 3,
-        "IFFUsed": 1
-      },
-      "HoldPhases": [
-        {
-          "Encryptions": [
-            "Hardened"
-          ],
-          "MinTargets": 3,
-          "MaxTargets": 5,
-          "MinTargetsLimited": 2,
-          "MaxTargetsLimited": 3,
-          "EnemyType": [
-            "Hot_Pistol",
-			"Hot_Melee"
-          ],
-          "LeaderType": "Hot_Pistol",
-          "MinEnemies": 3,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 4,
-          "MaxDirections": 1,
-          "SpawnCadence": 20.0,
-          "ScanTime": 30.0,
-          "WarmupTime": 7.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        },
-        {
-          "Encryptions": [
-            "Swarm"
-          ],
-          "MinTargets": 3,
-          "MaxTargets": 4,
-          "MinTargetsLimited": 3,
-          "MaxTargetsLimited": 3,
-          "EnemyType": [
-            "Hot_Melee",
-			"Hot_Pistol",
-			"Hot_Double",
-			"Hot_Melee"
-          ],
-          "LeaderType": "Hot_Uzi",
-          "MinEnemies": 3,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 6,
-          "MaxDirections": 1,
-          "SpawnCadence": 20.0,
-          "ScanTime": 40.0,
-          "WarmupTime": 7.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        }
-      ],
-      "SupplyChallenge": {
-        "TurretType": "SMG",
-        "EnemyType": "Hot_Pistol",
-        "NumTurrets": 0,
-        "NumGuards": 3,
-        "IFFUsed": 1
-      },
-      "Patrols": [
-        {
-          "EnemyType": [
-            "Hot_Melee",
-			"Hot_Double"
-          ],
-          "LeaderType": "Hot_Pistol",
-          "PatrolSize": 2,
-          "MaxPatrols": 2,
-          "MaxPatrolsLimited": 1,
-          "PatrolCadence": 90.0,
-          "PatrolCadenceLimited": 120.0,
-          "IFFUsed": 1,
-          "SwarmPlayer": false,
-          "AssualtSpeed": "Walking",
-          "IsBoss": false,
-          "DropChance": 0.65,
-          "DropsHealth": true
-        }
-      ]
-    },
-    {
-      "NumOverrideTokensForHold": 5,
+	{
+      "NumOverrideTokensForHold": 3,
       "MinSupplyPoints": 3,
       "MaxSupplyPoints": 3,
       "MinConstructors": 1,
@@ -2037,32 +2524,29 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "Hot_MP5",
+        "EnemyType": "Hot_Trip_Killer",
         "NumTurrets": 0,
-        "NumGuards": 4,
+        "NumGuards": 5,
         "IFFUsed": 1
       },
       "HoldPhases": [
         {
           "Encryptions": [
-            "Hardened"
+            "Static"
           ],
-          "MinTargets": 5,
-          "MaxTargets": 7,
-          "MinTargetsLimited": 4,
-          "MaxTargetsLimited": 5,
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
           "EnemyType": [
-            "Hot_Pistol",
-			"Hot_Double",
-			"Hot_Uzi",
-			"Hot_Melee"
+            "Hot_Trip_Killer"
           ],
-          "LeaderType": "Hot_Uzi",
-          "MinEnemies": 2,
-          "MaxEnemies": 2,
-          "MaxEnemiesAlive": 4,
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
           "MaxDirections": 2,
-          "SpawnCadence": 10.0,
+          "SpawnCadence": 20.0,
           "ScanTime": 20.0,
           "WarmupTime": 7.0,
           "IFFUsed": 1,
@@ -2072,21 +2556,21 @@
         },
         {
           "Encryptions": [
-            "Swarm"
+            "Stealth"
           ],
-          "MinTargets": 3,
-          "MaxTargets": 3,
+          "MinTargets": 4,
+          "MaxTargets": 6,
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "Hot_Double"
+            "Hot_Trip_Killer"
           ],
-          "LeaderType": "Hot_Buff",
-          "MinEnemies": 2,
-          "MaxEnemies": 2,
-          "MaxEnemiesAlive": 4,
-          "MaxDirections": 1,
-          "SpawnCadence": 15.0,
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
           "ScanTime": 40.0,
           "WarmupTime": 7.0,
           "IFFUsed": 1,
@@ -2096,19 +2580,16 @@
         },
         {
           "Encryptions": [
-            "Recursive"
+            "Hardened"
           ],
-          "MinTargets": 2,
-          "MaxTargets": 2,
-          "MinTargetsLimited": 2,
-          "MaxTargetsLimited": 2,
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
           "EnemyType": [
-            "Hot_Pistol",
-			"Hot_Double",
-			"Hot_Uzi",
-			"Hot_Melee"
+            "Hot_Trip_Killer"
           ],
-          "LeaderType": "Hot_AK",
+          "LeaderType": "Hot_Trip_Flamer",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 6,
@@ -2120,57 +2601,26 @@
           "GrenadeChance": 0.0,
           "GrenadeType": "Sosiggrenade_Flash",
           "SwarmPlayer": false
-        },
-        {
-          "Encryptions": [
-            "Static"
-          ],
-          "MinTargets": 3,
-          "MaxTargets": 4,
-          "MinTargetsLimited": 3,
-          "MaxTargetsLimited": 3,
-          "EnemyType": [
-            "Hot_M16",
-			"Hot_Double",
-			"Hot_Uzi",
-			"Hot_AK",
-			"Hot_Melee"
-          ],
-          "LeaderType": "Hot_Melee",
-          "MinEnemies": 2,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 8,
-          "MaxDirections": 3,
-          "SpawnCadence": 13.0,
-          "ScanTime": 50.0,
-          "WarmupTime": 7.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
         }
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "Hot_Pistol",
+        "EnemyType": "Hot_Trip_Killer",
         "NumTurrets": 0,
-        "NumGuards": 4,
+        "NumGuards": 6,
         "IFFUsed": 1
       },
       "Patrols": [
         {
           "EnemyType": [
-            "Hot_Pistol",
-			"Hot_Double",
-			"Hot_Uzi",
-			"Hot_Melee"
+            "Hot_Trip_Killer"
           ],
-          "LeaderType": "Hot_MP5",
+          "LeaderType": "Hot_Trip_Killer",
           "PatrolSize": 3,
-          "MaxPatrols": 3,
-          "MaxPatrolsLimited": 2,
-          "PatrolCadence": 70.0,
-          "PatrolCadenceLimited": 110.0,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
           "IFFUsed": 1,
           "SwarmPlayer": false,
           "AssualtSpeed": "Walking",
@@ -2180,8 +2630,8 @@
         }
       ]
     },
-    {
-      "NumOverrideTokensForHold": 5,
+	{
+      "NumOverrideTokensForHold": 3,
       "MinSupplyPoints": 3,
       "MaxSupplyPoints": 3,
       "MinConstructors": 1,
@@ -2214,7 +2664,7 @@
           "MinTargets": 3,
           "MaxTargets": 3,
           "MinTargetsLimited": 1,
-          "MaxTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
           "EnemyType": [
             "Hot_Melee",
 			"Hot_AK",
@@ -2287,30 +2737,6 @@
           "ScanTime": 50.0,
           "WarmupTime": 7.0,
           "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        },
-		        {
-          "Encryptions": [
-            "Hardened"
-          ],
-          "MinTargets": 4,
-          "MaxTargets": 4,
-          "MinTargetsLimited": 3,
-          "MaxTargetsLimited": 4,
-          "EnemyType": [
-            "Hot_Pig"
-          ],
-          "LeaderType": "Hot_Montagne",
-          "MinEnemies": 2,
-          "MaxEnemies": 2,
-          "MaxEnemiesAlive": 4,
-          "MaxDirections": 1,
-          "SpawnCadence": 12.0,
-          "ScanTime": 50.0,
-          "WarmupTime": 7.0,
-          "IFFUsed": 2,
           "GrenadeChance": 0.0,
           "GrenadeType": "Sosiggrenade_Flash",
           "SwarmPlayer": false
@@ -2347,8 +2773,8 @@
         }
       ]
     },
-    {
-      "NumOverrideTokensForHold": 5,
+	{
+      "NumOverrideTokensForHold": 3,
       "MinSupplyPoints": 3,
       "MaxSupplyPoints": 3,
       "MinConstructors": 1,
@@ -2368,56 +2794,50 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "Hot_M16",
+        "EnemyType": "Hot_Pig",
         "NumTurrets": 0,
-        "NumGuards": 8,
+        "NumGuards": 5,
         "IFFUsed": 1
       },
       "HoldPhases": [
         {
           "Encryptions": [
-            "Stealth"
+            "Recursive"
           ],
-          "MinTargets": 7,
-          "MaxTargets": 9,
-          "MinTargetsLimited": 4,
-          "MaxTargetsLimited": 4,
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
           "EnemyType": [
             "Hot_Pig"
           ],
-          "LeaderType": "Hot_Bruiser",
+          "LeaderType": "Hot_Montagne",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 6,
-          "MaxDirections": 3,
+          "MaxDirections": 2,
           "SpawnCadence": 20.0,
-          "ScanTime": 25.0,
+          "ScanTime": 20.0,
           "WarmupTime": 7.0,
           "IFFUsed": 1,
-          "GrenadeChance": 0.0,
+          "GrenadeChance": 0.1,
           "GrenadeType": "Sosiggrenade_Flash",
           "SwarmPlayer": false
         },
         {
           "Encryptions": [
-            "Agile"
+            "Stealth"
           ],
-          "MinTargets": 5,
-          "MaxTargets": 5,
-          "MinTargetsLimited": 4,
-          "MaxTargetsLimited": 4,
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
           "EnemyType": [
-            "Hot_Melee",
-			"Hot_AK",
-			"Hot_Pistol",
-			"Hot_Uzi",
-			"Hot_Double",
-			"Hot_M16",
-			"Hot_MP5"
+            "Hot_Montagne"
           ],
-          "LeaderType": "Hot_MP5",
+          "LeaderType": "Hot_Pig",
           "MinEnemies": 3,
-          "MaxEnemies": 4,
+          "MaxEnemies": 3,
           "MaxEnemiesAlive": 6,
           "MaxDirections": 3,
           "SpawnCadence": 10.0,
@@ -2432,35 +2852,10 @@
           "Encryptions": [
             "Static"
           ],
-          "MinTargets": 5,
-          "MaxTargets": 7,
-          "MinTargetsLimited": 4,
-          "MaxTargetsLimited": 5,
-          "EnemyType": [
-            "Hot_Pig",
-			"Hot_Bruiser"
-          ],
-          "LeaderType": "Hot_Montagne",
-          "MinEnemies": 3,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 6,
-          "MaxDirections": 3,
-          "SpawnCadence": 15.0,
-          "ScanTime": 60.0,
-          "WarmupTime": 7.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        },
-        {
-          "Encryptions": [
-            "Regenerative"
-          ],
-          "MinTargets": 4,
-          "MaxTargets": 7,
-          "MinTargetsLimited": 1,
-          "MaxTargetsLimited": 1,
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
           "EnemyType": [
             "Hot_Trip_Killer"
           ],
@@ -2470,7 +2865,7 @@
           "MaxEnemiesAlive": 6,
           "MaxDirections": 3,
           "SpawnCadence": 15.0,
-          "ScanTime": 60.0,
+          "ScanTime": 50.0,
           "WarmupTime": 7.0,
           "IFFUsed": 1,
           "GrenadeChance": 0.0,
@@ -2480,7 +2875,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "Hot_Pistol",
+        "EnemyType": "Hot_Montagne",
         "NumTurrets": 0,
         "NumGuards": 6,
         "IFFUsed": 1
@@ -2488,32 +2883,13 @@
       "Patrols": [
         {
           "EnemyType": [
-            "Hot_Pig"
+            "Hot_Montagne",
+			"Hot_Pig"
           ],
           "LeaderType": "Hot_Montagne",
           "PatrolSize": 3,
-          "MaxPatrols": 3,
+          "MaxPatrols": 4,
           "MaxPatrolsLimited": 3,
-          "PatrolCadence": 45.0,
-          "PatrolCadenceLimited": 50.0,
-          "IFFUsed": 2,
-          "SwarmPlayer": false,
-          "AssualtSpeed": "Walking",
-          "IsBoss": false,
-          "DropChance": 0.65,
-          "DropsHealth": true
-        },
-	    {
-          "EnemyType": [
-			"Hot_AK",
-			"Hot_Uzi",
-			"Hot_Double",
-			"Hot_MP5"
-          ],
-          "LeaderType": "Hot_M16",
-          "PatrolSize": 3,
-          "MaxPatrols": 1,
-          "MaxPatrolsLimited": 1,
           "PatrolCadence": 60.0,
           "PatrolCadenceLimited": 100.0,
           "IFFUsed": 1,
@@ -2526,7 +2902,470 @@
       ]
     },
 	{
-      "NumOverrideTokensForHold": 2,
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Killer",
+        "NumTurrets": 0,
+        "NumGuards": 5,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.1,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Gunner",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer",
+			"Hot_Trip_Gunner"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 15.0,
+          "ScanTime": 50.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Montagne",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Hot_Montagne",
+			"Hot_Pig"
+          ],
+          "LeaderType": "Hot_Montagne",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },	
+	{
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Killer",
+        "NumTurrets": 0,
+        "NumGuards": 5,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.1,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Gunner"
+          ],
+          "LeaderType": "Hot_Trip_Gunner",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Agile"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer",
+			"Hot_Trip_Gunner"
+          ],
+          "LeaderType": "Hot_Trip_Buff",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 15.0,
+          "ScanTime": 50.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Gunner",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Hot_Trip_Gunner"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },	
+	{
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 4,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Melee",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Melee"
+          ],
+          "LeaderType": "Hot_Melee",
+          "MinEnemies": 2,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 8,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.1,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Melee"
+          ],
+          "LeaderType": "Hot_Melee",
+          "MinEnemies": 3,
+          "MaxEnemies": 6,
+          "MaxEnemiesAlive": 8,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 4,
+          "EnemyType": [
+			"Hot_Melee"
+          ],
+          "LeaderType": "Hot_Melee",
+          "MinEnemies": 1,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 10,
+          "MaxDirections": 3,
+          "SpawnCadence": 5.0,
+          "ScanTime": 50.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Melee",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Hot_Melee"
+          ],
+          "LeaderType": "Hot_Melee",
+          "PatrolSize": 6,
+          "MaxPatrols": 5,
+          "MaxPatrolsLimited": 5,
+          "PatrolCadence": 10.0,
+          "PatrolCadenceLimited": 60.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+	{
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 4,
+      "MaxSupplyPoints": 4,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Killer",
+        "NumTurrets": 0,
+        "NumGuards": 5,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Trip_Killer",
+			"Hot_Trip_Flamer"
+          ],
+          "LeaderType": "Hot_Trip_Buff",
+          "MinEnemies": 1,
+          "MaxEnemies": 2,
+          "MaxEnemiesAlive": 3,
+          "MaxDirections": 2,
+          "SpawnCadence": 1.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Trip_Flamer",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Gunner",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+	{
+      "NumOverrideTokensForHold": 4,
       "MinSupplyPoints": 3,
       "MaxSupplyPoints": 3,
       "MinConstructors": 1,
@@ -2548,13 +3387,87 @@
         "TurretType": "SMG",
         "EnemyType": "Hot_Trip_Flamer",
         "NumTurrets": 0,
-        "NumGuards": 6,
+        "NumGuards": 3,
         "IFFUsed": 1
       },
       "HoldPhases": [
         {
           "Encryptions": [
-            "Static"
+            "Hardened"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Flamer",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer"
+          ],
+          "LeaderType": "Hot_Trip_Gunner",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 30.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Trip_Killer",
+			"Hot_Trip_Flamer",
+			"Hot_Trip_Gunner"
+          ],
+          "LeaderType": "Hot_Trip_Buff",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 15.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+		        {
+          "Encryptions": [
+            "Swarm"
           ],
           "MinTargets": 3,
           "MaxTargets": 6,
@@ -2563,110 +3476,14 @@
           "EnemyType": [
             "Hot_Trip_Killer"
           ],
-          "LeaderType": "Hot_Trip_Flamer",
+          "LeaderType": "Hot_Trip_Buff",
           "MinEnemies": 3,
           "MaxEnemies": 3,
-          "MaxEnemiesAlive": 3,
+          "MaxEnemiesAlive": 6,
           "MaxDirections": 3,
-          "SpawnCadence": 5.0,
-          "ScanTime": 10.0,
-          "WarmupTime": 4.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        },
-        {
-          "Encryptions": [
-            "Static"
-          ],
-          "MinTargets": 3,
-          "MaxTargets": 6,
-          "MinTargetsLimited": 3,
-          "MaxTargetsLimited": 3,
-          "EnemyType": [
-            "Hot_Trip_Flamer"
-          ],
-          "LeaderType": "Hot_Trip_Killer",
-          "MinEnemies": 3,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 3,
-          "MaxDirections": 3,
-          "SpawnCadence": 5.0,
-          "ScanTime": 10.0,
-          "WarmupTime": 4.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        },
-        {
-          "Encryptions": [
-            "Static"
-          ],
-          "MinTargets": 3,
-          "MaxTargets": 6,
-          "MinTargetsLimited": 3,
-          "MaxTargetsLimited": 3,
-          "EnemyType": [
-            "M_Swat_Ranger"
-          ],
-          "LeaderType": "M_Swat_Ranger",
-          "MinEnemies": 3,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 3,
-          "MaxDirections": 3,
-          "SpawnCadence": 5.0,
-          "ScanTime": 10.0,
-          "WarmupTime": 4.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        },
-        {
-          "Encryptions": [
-            "Static"
-          ],
-          "MinTargets": 3,
-          "MaxTargets": 6,
-          "MinTargetsLimited": 3,
-          "MaxTargetsLimited": 3,
-          "EnemyType": [
-            "M_Swat_Sniper"
-          ],
-          "LeaderType": "M_Swat_Sniper",
-          "MinEnemies": 3,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 3,
-          "MaxDirections": 3,
-          "SpawnCadence": 5.0,
-          "ScanTime": 10.0,
-          "WarmupTime": 4.0,
-          "IFFUsed": 1,
-          "GrenadeChance": 0.0,
-          "GrenadeType": "Sosiggrenade_Flash",
-          "SwarmPlayer": false
-        },
-        {
-          "Encryptions": [
-            "Static"
-          ],
-          "MinTargets": 3,
-          "MaxTargets": 6,
-          "MinTargetsLimited": 3,
-          "MaxTargetsLimited": 3,
-          "EnemyType": [
-            "M_Swat_Officer"
-          ],
-          "LeaderType": "M_Swat_Officer",
-          "MinEnemies": 3,
-          "MaxEnemies": 3,
-          "MaxEnemiesAlive": 3,
-          "MaxDirections": 3,
-          "SpawnCadence": 5.0,
-          "ScanTime": 10.0,
-          "WarmupTime": 4.0,
+          "SpawnCadence": 15.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
           "IFFUsed": 1,
           "GrenadeChance": 0.0,
           "GrenadeType": "Sosiggrenade_Flash",
@@ -2675,7 +3492,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "M_Swat_Heavy",
+        "EnemyType": "Hot_Uzi",
         "NumTurrets": 0,
         "NumGuards": 6,
         "IFFUsed": 1
@@ -2683,14 +3500,143 @@
       "Patrols": [
         {
           "EnemyType": [
-            "M_Swat_Sniper"
+            "Hot_Trip_Killer",
+			"Hot_Trip_Gunner"
           ],
-          "LeaderType": "M_Swat_Sniper",
-          "PatrolSize": 1,
-          "MaxPatrols": 5,
+          "LeaderType": "Hot_Trip_Killer",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
           "MaxPatrolsLimited": 3,
-          "PatrolCadence": 15.0,
-          "PatrolCadenceLimited": 30.0,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+	{
+      "NumOverrideTokensForHold": 4,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Buff",
+        "NumTurrets": 0,
+        "NumGuards": 5,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Agile"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "Hot_Buff"
+          ],
+          "LeaderType": "Hot_Bruiser",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Swarm"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Buff"
+          ],
+          "LeaderType": "Hot_Bruiser",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 10.0,
+          "ScanTime": 30.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.5,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "Hot_Buff",
+			"Hot_Bruiser"
+          ],
+          "LeaderType": "Hot_Trip_Buff",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 15.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Hot_Buff",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Hot_Buff"
+          ],
+          "LeaderType": "Hot_Buff",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 100.0,
           "IFFUsed": 1,
           "SwarmPlayer": false,
           "AssualtSpeed": "Walking",

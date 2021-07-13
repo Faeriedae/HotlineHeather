@@ -1,18 +1,18 @@
 {
-  "DisplayName": "HotMelee",
-  "SosigEnemyCategory": "Shotdogs",
-  "SosigEnemyID": "Hot_Melee",
+  "DisplayName": "Siren",
+  "SosigEnemyCategory": "Gladiators",
+  "SosigEnemyID": "Hot_Siren",
   "SosigPrefabs": [
     "SosigBody_Default"
   ],
   "Configs": [
     {
-      "ViewDistance": 250.0,
+      "ViewDistance": 1.0,
       "HearingDistance": 300.0,
       "MaxFOV": 105.0,
       "SearchExtentsModifier": 1.0,
       "DoesAggroOnFriendlyFire": false,
-      "HasABrain": true,
+      "HasABrain": false,
       "DoesDropWeaponsOnBallistic": true,
       "CanPickupRanged": true,
       "CanPickupMelee": true,
@@ -21,8 +21,8 @@
       "TargetTrackingTime": 2.0,
       "NoFreshTargetTime": 1.5,
       "AssaultPointOverridesSkirmishPointWhenFurtherThan": 200.0,
-      "RunSpeed": 3.5,
-      "WalkSpeed": 1.4,
+      "RunSpeed": 0.0,
+      "WalkSpeed": 0.0,
       "SneakSpeed": 0.6,
       "CrawlSpeed": 0.3,
       "TurnSpeed": 8.0,
@@ -32,7 +32,7 @@
       "BleedDamageMult": 0.5,
       "BleedRateMultiplier": 1.0,
       "BleedVFXIntensity": 2.0,
-      "DamMult_Projectile": 1.1,
+      "DamMult_Projectile": 1.0,
       "DamMult_Explosive": 1.0,
       "DamMult_Melee": 1.0,
       "DamMult_Piercing": 1.0,
@@ -198,26 +198,19 @@
   "OutfitConfigs": [
     {
       "Headwear": [],
-      "Chance_Headwear": 1.0,
+      "Chance_Headwear": 0.0,
       "ForceWearAllHead": false,
-      "Eyewear": [
-		"Sosig_MF2_Red_SP_ciggie",
-	  ],
-      "Chance_Eyewear": 1.0,
+      "Eyewear": [],
+      "Chance_Eyewear": 0.0,
       "ForceWearAllEye": false,
       "Facewear": [],
       "Chance_Facewear": 0.0,
       "ForceWearAllFace": false,
-      "Torsowear": [
-        "SosigAccessory_HotShirt",
-      ],
-      "Chance_Torsowear": 1.0,
+      "Torsowear": [],
+      "Chance_Torsowear": 0.0,
       "ForceWearAllTorso": false,
-      "Pantswear": [
-        "SosigAccessory_HotPants",
-
-      ],
-      "Chance_Pantswear": 1.0,
+      "Pantswear": [],
+      "Chance_Pantswear": 0.0,
       "ForceWearAllPants": false,
       "Pantswear_Lower": [],
       "Chance_Pantswear_Lower": 0.0,
@@ -227,32 +220,36 @@
       "ForceWearAllBackpacks": false
     }
   ],
-  "WeaponOptions": [
-    "SosigMelee_Crowbar",
+  "WeaponOptions": [],
+  "WeaponOptionsSecondary": [
+   
+  ],
+  "WeaponOptionsTertiary": [
+	"SosigMelee_Crowbar",
 	"SosigMelee_Tomahawk",
 	"SosigMelee_Tanto"
   ],
-  "WeaponOptionsSecondary": [],
-  "WeaponOptionsTertiary": [],
   "SecondaryChance": 0.0,
   "TertiaryChance": 0.0,
-  "DroppedLootChance": 0.0,
+  "DroppedLootChance": 1.0,
   "DroppedObjectPool": {
     "Category": "Firearm",
-    "Rarity": 0.0,
+    "Rarity": 1.0,
     "RequiredQuest": null,
-    "ItemsToSpawn": 0,
-    "MinAmmoCapacity": 0,
-    "MaxAmmoCapacity": 0,
+    "ItemsToSpawn": 1,
+    "MinAmmoCapacity": 2,
+    "MaxAmmoCapacity": 2,
     "NumMagsSpawned": 0,
     "NumClipsSpawned": 0,
-    "NumRoundsSpawned": 0,
+    "NumRoundsSpawned": 4,
     "SpawnMagAndClip": false,
     "BespokeAttachmentChance": 0.0,
     "IsCompatibleMagazine": false,
     "AutoPopulateGroup": false,
     "ForceSpawnAllSubPools": false,
-    "IDOverride": [],
+    "IDOverride": [
+		"SirenCube"
+	],
     "Eras": [],
     "Sets": [],
     "Sizes": [],

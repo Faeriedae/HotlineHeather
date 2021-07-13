@@ -1,0 +1,73 @@
+{
+  "FileName": "Vault_M1911Tactical",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -3.0,
+  "SpeedForward": 1.4,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 3
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "M1911Tactical",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "SafetyState": "Off"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "MaximSilencerLargeA",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.06889989,
+        "z": 0.178979829
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.07853359,
+        "y": 0.996911466,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ]
+}

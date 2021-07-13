@@ -202,13 +202,15 @@
       ],
       "Chance_Headwear": 1.0,
       "ForceWearAllHead": false,
-      "Eyewear": [],
-      "Chance_Eyewear": 0.0,
+      "Eyewear": [
+		"Sosigaccesory_Peepers"
+		],
+      "Chance_Eyewear": 1.0,
       "ForceWearAllEye": false,
       "Facewear": [
         "SosigAccessory_Tactical_GasMask2"
       ],
-      "Chance_Facewear": 1.0,
+      "Chance_Facewear": 0.0,
       "ForceWearAllFace": false,
       "Torsowear": [
         "Sosigaccesory_ww2_shirt_green"
